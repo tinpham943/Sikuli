@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test DP by sikuli" parallel="none">
+	<test name="NoxTest" preserve-order="true">
+		<parameter name="App" value="Nox"></parameter>
+		<classes>
+		<class name="com.DriverPortal.automation.SetupAPK" />
+			<class name="com.DriverPortal.automation.LoginTest" />
+			<class name="com.DriverPortal.automation.TimeAndAttendanceTest" />
+			<class name="com.DriverPortal.automation.AdditionalEmployeeTest" />
+			<class name="com.DriverPortal.automation.BuildRouteTest" />
+			<class name="com.DriverPortal.automation.SelectRouteTest" />
+			<class name="com.DriverPortal.automation.DrivingModeTest" />
+			
+			<!-- 	<class name="com.DriverPortal.automation.KvFullTest" />-->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
